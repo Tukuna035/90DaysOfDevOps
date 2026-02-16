@@ -2,6 +2,7 @@
 
 Day 22 – Introduction to Git: Your First Repository
 
+-------------------------------------------
 what Git is and why it matters?
 
 Git is a distributed version control system (DVCS) used to track changes in source code during software development.
@@ -213,6 +214,7 @@ Most important commands to master:
 •	git stash
 These are used almost every day in real projects.
 
+----------------------------------------------------------------------------
 
 How to do ssh in local machine to connect github to do push and pull ?
 Perfect 🔥 this is the right way to connect your local machine to GitHub — using SSH (more secure, no password every time).
@@ -314,7 +316,7 @@ cat ~/.ssh/id_ed25519.pub
 Add to GitHub → Test → Use SSH URL.
 
 
- 
+ -----------------------------------------------------------
  
 
 How to push file from local to GitHub after ssh?
@@ -326,6 +328,8 @@ Step-by-Step Instructions
             git commit -m "First commit"
 3.	Push the changes from your local repository to GitHub:
               git push -u origin main
+
+   -----------------------------------------------------------------------
 
 What is the difference between git add and git commit?
 
@@ -339,6 +343,7 @@ In Git, your project has 3 stages:
 1️⃣ Working Directory → where you edit files
 2️⃣ Staging Area (Index) → where you prepare changes
 3️⃣ Repository (.git) → where commits are permanently stored
+
 Think of it like:
 Edit → Select → Save permanently
 ________________________________________
@@ -370,6 +375,7 @@ Prepares changes	Saves changes permanently
 Moves to staging	Creates snapshot
 Can select specific files	Saves whatever is staged
 Not permanent	Permanent record
+-----------------------------------------------------------------
 
 Why Doesn’t Git Just Commit Directly?
 
@@ -381,6 +387,8 @@ commit 2: more random changes
 commit 3: half feature
 That’s messy and unprofessional.
 ________________________________________
+
+
 🚀 Git’s Design Philosophy
 
 
@@ -390,11 +398,13 @@ They needed:
 •	Precise commits
 •	Logical grouping of changes
 The staging area makes that possible.
+--------------------------------------------------------------
 
 🧠 What Does git log Show?
 
 
 git log shows the history of commits in your repository.
+
 Run:
 git log
 You’ll see something like:
