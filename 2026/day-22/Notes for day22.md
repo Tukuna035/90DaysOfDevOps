@@ -3,13 +3,15 @@
 Day 22 – Introduction to Git: Your First Repository
 
 what Git is and why it matters?
-🌳 What is Git?
+
 Git is a distributed version control system (DVCS) used to track changes in source code during software development.
 It was created in 2005 by Linus Torvalds (the creator of Linux).
 In simple words:
 Git is a tool that remembers every change you make in your project.
 ________________________________________
 📦 What is Version Control?
+
+
 Version control means:
 •	Tracking changes in files
 •	Going back to older versions if something breaks
@@ -25,6 +27,8 @@ With Git:
 •	Everything is tracked automatically and cleanly.
 ________________________________________
 ⚙️ Why Git Matters (Very Important)
+
+
 1️⃣ Prevents Code Loss
 If you delete or break something:
 git checkout <old-version>
@@ -74,6 +78,8 @@ git diff
 You see exact changes.
 ________________________________________
 🔥 Why Companies Love Git
+
+
 Because it provides:
 •	Speed
 •	Reliability
@@ -84,12 +90,16 @@ Because it provides:
 That’s why almost every tech company uses Git.
 ________________________________________
 🚀 In One Line
+
+
 Git is the backbone of modern software development.
 what are most used git commands ?
 Great question 👍
 If you're learning DevOps or working as a production/support engineer, these are the most used Git commands in real-world projects.
 ________________________________________
 🔥 Most Used Git Commands (Daily Use)
+
+
 1️⃣ git init
 Initialize a new Git repository.
 git init
@@ -144,6 +154,7 @@ git merge feature-login
 Used after feature development.
 ________________________________________
 🧠 Intermediate But Very Important
+
 🔹 git log
 View commit history.
 git log
@@ -162,6 +173,7 @@ Check connected remote repository.
 git remote -v
 ________________________________________
 🚀 Real-World Daily Workflow
+
 git pull
 git checkout -b new-feature
 git add .
@@ -170,6 +182,8 @@ git push
 ________________________________________
 🎯 If You’re in DevOps / Production Support
 Most important commands to master:
+
+
 •	git pull
 •	git push
 •	git add
@@ -187,6 +201,7 @@ Perfect 🔥 this is the right way to connect your local machine to GitHub — u
 We’ll do this step-by-step.
 ________________________________________
 🧠 What We’re Doing
+
 We will:
 1.	Generate SSH key on local machine
 2.	Add SSH key to GitHub
