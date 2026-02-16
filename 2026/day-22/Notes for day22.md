@@ -10,7 +10,7 @@ It was created in 2005 by Linus Torvalds (the creator of Linux).
 In simple words:
 Git is a tool that remembers every change you make in your project.
 ________________________________________
-📦 What is Version Control?
+ What is Version Control?
 
 
 Version control means:
@@ -27,7 +27,7 @@ Without Git:
 With Git:
 •	Everything is tracked automatically and cleanly.
 ________________________________________
-⚙️ Why Git Matters (Very Important)
+ Why Git Matters (Very Important) ?
 
 
 1️⃣ Prevents Code Loss
@@ -200,7 +200,7 @@ git commit -m "Added new feature"
 git push
 ________________________________________
 🎯 If You’re in DevOps / Production Support
-Most important commands to master:
+**Most important commands to master:**
 
 
 •	git pull
@@ -216,11 +216,7 @@ These are used almost every day in real projects.
 
 ----------------------------------------------------------------------------
 
-How to do ssh in local machine to connect github to do push and pull ?
-Perfect 🔥 this is the right way to connect your local machine to GitHub — using SSH (more secure, no password every time).
-We’ll do this step-by-step.
-________________________________________
-🧠 What We’re Doing
+**How to do ssh in local machine to connect github to do push and pull ?**
 
 
 We will:
@@ -319,7 +315,7 @@ Add to GitHub → Test → Use SSH URL.
  -----------------------------------------------------------
  
 
-How to push file from local to GitHub after ssh?
+**How to push file from local to GitHub after ssh?**
 
 Step-by-Step Instructions
 1.	Stage your files for the first commit:
@@ -331,12 +327,7 @@ Step-by-Step Instructions
 
    -----------------------------------------------------------------------
 
-What is the difference between git add and git commit?
-
-Good 👌 this is a core Git concept — if you understand this clearly, Git becomes easy.
-We’ll keep it simple and practical.
-________________________________________
-🧠 First Understand 3 Areas in Git
+**What is the difference between git add and git commit?**
 
 
 In Git, your project has 3 stages:
@@ -359,11 +350,11 @@ You can stage:
 git add .
 (All files)
 ________________________________________
-🟢 What git commit Does
+****** What git commit Does ?******
 
 
 git commit -m "Added login feature"
-👉 Moves changes from Staging Area → Git Repository
+👉 **Moves changes from Staging Area → Git Repository
 This creates a permanent snapshot in Git history.
 Now Git remembers:
 •	What changed
@@ -374,10 +365,10 @@ git add	git commit
 Prepares changes	Saves changes permanently
 Moves to staging	Creates snapshot
 Can select specific files	Saves whatever is staged
-Not permanent	Permanent record
+Not permanent	Permanent record**
 -----------------------------------------------------------------
 
-Why Doesn’t Git Just Commit Directly?
+**Why Doesn’t Git Just Commit Directly?**
 
 
 Because real development is messy.
@@ -400,7 +391,7 @@ They needed:
 The staging area makes that possible.
 --------------------------------------------------------------
 
-🧠 What Does git log Show?
+🧠** What Does git log Show?**
 
 
 git log shows the history of commits in your repository.
@@ -511,7 +502,7 @@ Ahhh now we’re opening the engine of Git 🚀
 This is where things get real.
 We’re talking about the hidden .git/ folder inside a project managed by Git.
 ________________________________________
-🧠 What Is the .git/ Folder?
+** What Is the .git/ Folder?**
 
 
 When you run:
@@ -573,8 +564,8 @@ ________________________________________
 
 
 Stores repository configuration (remotes, settings).
-________________________________________
-🎯 So What Happens If You Delete .git/?
+________________________________________**
+**  What Happens If You Delete .git/?**
 
 
 Let’s say you do this:
